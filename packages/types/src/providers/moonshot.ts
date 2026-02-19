@@ -8,8 +8,8 @@ export const moonshotDefaultModelId: MoonshotModelId = "kimi-k2-thinking"
 export const moonshotModels = {
 	// kilocode_change start
 	"kimi-for-coding": {
-		maxTokens: 32_000,
-		contextWindow: 131_072,
+		maxTokens: 32_768,
+		contextWindow: 262_144,
 		supportsImages: true,
 		supportsPromptCache: true,
 		supportsReasoningBinary: true,
